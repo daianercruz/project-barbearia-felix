@@ -185,3 +185,52 @@ td, th{
 	border: 1px solid;
 	padding: 15px 8px ;
 }
+
+/* css da pagina Index */
+
+.banner{
+
+width: 100%;
+
+
+}
+ .tituloprincipal{
+	
+    text-align: center;
+    font-size: 2em;
+	margin: 0 0 1em;
+	padding-left: 20px;
+	clear:left;
+
+}
+.principal{
+    background-color: #E3E2E1;
+    padding: 30px;
+}
+
+.principal p{
+
+	margin: 0 0 1em;
+	text-align: center;
+}
+
+.principal p strong{
+	font-weight: bold;
+}
+.principal em{
+	font-style: italic;
+}
+
+.utensilios{
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+em strong{
+
+    color: #EB8014;
+}
+.imagembeneficios{
+    width: 45%;
+
+}
