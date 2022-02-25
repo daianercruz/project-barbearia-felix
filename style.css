@@ -192,7 +192,6 @@ td, th{
 
 width: 100%;
 
-
 }
  .tituloprincipal{
 	
@@ -234,3 +233,22 @@ em strong{
     width: 45%;
 
 }
+
+#missao{
+    font-size: 25px;
+}
+
+
+.beneficios{
+    background-color: #FDFBF9;
+    padding: 20px;
+}
+
+.atendimento {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
