@@ -1,5 +1,43 @@
-/* css da pagina Index */
 
+header {
+	background: #e7c964;
+	padding: 20px 0;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+
+	color: rgb(252, 241, 146);
+	text-decoration: underline;
+}
+
+
+
+
+/* css da pagina Index */
 .banner{
 
 	width: 100%;
@@ -75,41 +113,8 @@ I
 /* css da pagina produtos */
 
 
-header {
-	background: #e7c964;
-	padding: 20px 0;
-}
 
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
-}
 
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-
-nav a:hover {
-
-	color: rgb(252, 241, 146);
-	text-decoration: underline;
-}
 
 .produtos{
 
