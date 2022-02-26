@@ -100,13 +100,33 @@ nav a:hover {
 		padding: 20px;
 	}
 	
+	
+	
 	.atendimento {
 		display: inline-block;
 		vertical-align: top;
 		width: 20%;
 		margin-right: 15%;
 	}
+
+	.atendimento li {
+		font-style: italic;
+	}
 	
+.Mapa p{
+
+		text-align: center;
+		margin: 0 0 2em;
+	
+}
+
+.Mapa{
+
+	padding: 3em 0 ;
+
+}
+
+
 	
 /* Final da do css da pagina index */	
 
