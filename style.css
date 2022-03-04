@@ -3,7 +3,7 @@ body{
 }
 
 header {
-	background: #e7c964;
+	background: #cbbdb0;
 	padding: 20px 0;
 }
 .caixa {
@@ -33,7 +33,7 @@ nav a {
 
 nav a:hover {
 
-	color: rgb(252, 241, 146);
+	color: #edece7;
 	text-decoration: underline;
 }
 
@@ -56,16 +56,19 @@ nav a:hover {
 	
 	}
 	.principal{
-		background-color:  rgba(255, 255, 255, 0.1);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-		padding: 30px;
+		
+		padding: 3em 0;
+		background-color: white;
+		width: 940px;
+        margin: auto;
+
 	}
 	
 	.principal p{
 	
 		margin: 0 0 1em;
 		text-align: center;
+	
 	}
 	
 	.principal p strong{
@@ -83,7 +86,7 @@ nav a:hover {
 	
 	em strong{
 	
-		color: #EB8014;
+		color: #615a4f;
 	}
 	.imagembeneficios{
 		width: 45%;
@@ -96,9 +99,11 @@ nav a:hover {
 	
 	
 	.beneficios{
-		background-color: #FDFBF9;
+		background-color: #677a80;
 		padding: 20px;
 		padding: 3em 0 ;
+		
+		
 	}
 	
  .beneficiosconteudo{
@@ -106,10 +111,6 @@ nav a:hover {
 	 margin: 0 auto;
 
  }
-
-
-
-
 
 
 	.video{
@@ -125,21 +126,34 @@ nav a:hover {
 		margin-right: 15%;
 	}
 
-	.atendimento li {
+	.itens {
 		font-style: italic;
+		line-height: 1.5;
 	}
 	
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "✦" ;
+}
+
+
 .Mapa p{
 
 		text-align: center;
 		margin: 0 0 2em;
 	
 }
-
+ .conteudoMapa{
+	width: 640px;
+	margin: 0 auto;
+ }
 .Mapa{
 
 	padding: 3em 0 ;
-
+	background: linear-gradient(#FEFEFE, #677a80);
 }
 
 
@@ -160,6 +174,7 @@ I
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px;
+	
 }
 
 
@@ -179,7 +194,7 @@ border-radius: 20px;
 
 .produtos li:hover {
 
-	border-color:rgb(250, 241, 114) ;
+	border-color:#548ca4 ;
 }
 
 .produtos li:active {
@@ -231,12 +246,11 @@ padding: 40px 0;
 
 /* css da pagina contato */
 
-main{
-width: 940px;
-margin: auto;
+.menu{
+	width: 940px;
+	margin: auto;
 
 }
-
 form{
     margin: 40px 0;
 }
@@ -268,7 +282,7 @@ form submit{
 
 	width: 40%;
 	padding: 15px 0;
-	background-color: #e7c964;
+	background-color:#aba498;
 	color: aliceblue;
 	font-weight: bold;
 	font-size: 18px;
@@ -280,7 +294,7 @@ form submit{
 
 .enviar:hover{
 
-	background-color:rgb(210,105,30) ;
+	background-color:#beb6a9;
 	transform: scale(1.2);
 	
 
