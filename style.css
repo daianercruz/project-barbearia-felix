@@ -90,7 +90,6 @@ nav a:hover {
 	}
 	.imagembeneficios{
 		width: 45%;
-		
 		transition: 400ms;
 		box-shadow: 5px 10px 15px #000000;
 	
@@ -327,3 +326,22 @@ td, th{
 	padding: 15px 8px ;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .video, .Mapa, .beneficios, .menu{
+        width: auto;
+    }
+
+    h1, .produtonome, .produtopreco{
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .atendimento, .imagembeneficios{
+        width: 55%;
+    }
+	
+	
+}
