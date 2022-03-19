@@ -90,8 +90,15 @@ nav a:hover {
 	}
 	.imagembeneficios{
 		width: 45%;
+		
+		transition: 400ms;
+		box-shadow: 5px 10px 15px #000000;
 	
 	}
+	.imagembeneficios:hover {
+		opacity: 0.3;
+	}
+	
 	
 	#missao{
 		font-size: 25px;
