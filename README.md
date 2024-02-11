@@ -17,7 +17,7 @@
 
 
 
-<p align="center">Pagina Index </p>
+<p  align="center">Pagina Index </p>
 
 <div align="center">
 
