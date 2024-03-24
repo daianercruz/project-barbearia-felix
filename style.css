@@ -3,13 +3,15 @@ body{
 }
 
 header {
-	background: #cbbdb0;
+	background: #f5f3f2;
 	padding: 20px 0;
 }
 .caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+	display: flex;
+ 
 }
 
 nav {
@@ -25,7 +27,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #2e040496;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
@@ -86,7 +88,7 @@ nav a:hover {
 	
 	em strong{
 	
-		color: #615a4f;
+		color: #ec9304;
 	}
 	.imagembeneficios{
 		width: 45%;
@@ -168,7 +170,7 @@ nav a:hover {
 
 
 
-I
+
 /* css da pagina produtos */
 
 
@@ -189,13 +191,14 @@ I
 display: inline-block;
 text-align: center;
 width: 30%;
-vertical-align: top;
-	
+vertical-align: top;	
 margin: 0 1.5%;
 padding: 30px 20px;
 box-sizing: border-box;
 border: 5px solid #000000;
 border-radius: 20px;
+
+
 }
 
 .produtos li:hover {
@@ -210,7 +213,7 @@ border-radius: 20px;
 
 .produtos li:hover h2 {
 
-font-size: 48px;
+font-size: 46px;
 
 }
 
@@ -219,6 +222,8 @@ font-size: 48px;
 	font-weight: bold;
 
 }
+
+
 
 .produtonome{
 	font-size: 20px;
@@ -235,7 +240,7 @@ font-size: 48px;
 
 footer{
 text-align: center;
-background: url(bg.jpg);
+background: url(img/bg.jpg);
 padding: 40px 0;
 
 }
